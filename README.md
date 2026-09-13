@@ -14,7 +14,19 @@ Sistema para registrar alumnos en diferentes cursos.
 |------------|-----|
 | Java | Backend |
 | MySQL | Base de datos |
+
 ## Funciones
 - [x] Registro de Alumno
 - [x] Generar Matricula
 - [ ] Generar Reportes
+
+## Aprendiendo Mermaid
+```mermaid
+flowchart TD
+A[Usuario] --> B[Iniciar Sesiónss]
+B --> C{Credenciales Validas}
+C -->|Si| D[Acceder al sistema]
+C -->|No| E[Mostrar Error]
+```
+
+## Aprendiendo mas
